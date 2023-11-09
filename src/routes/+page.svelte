@@ -42,7 +42,7 @@ nav a:hover {
 <Card {...cardData}/>
 </div>
 
-<h1>Looping cardArray</h1>
+<h1>My cardArray</h1>
 <span>
 
 {#each cardArray as card}
