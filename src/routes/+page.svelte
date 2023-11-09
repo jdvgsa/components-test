@@ -36,7 +36,7 @@ nav a:hover {
   </nav>
   
 
-<h1 class="text-5xl font-bold underline">Components and Props Assignment Test3322</h1>
+<h1 class="text-5xl font-bold underline">Components and Props Assignment Test</h1>
 
 <div>
 <Card {...cardData}/>
