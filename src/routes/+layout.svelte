@@ -15,4 +15,8 @@
   </script>
   <header />
   <slot /> -->
+<script>
+  import"../app.css";
+  </script>
+
   <slot />

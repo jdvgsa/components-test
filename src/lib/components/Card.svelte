@@ -3,21 +3,33 @@ export let myTitle;
 export let myDescription;
 export let myImage;
 export let myLink;
-export let visible = true;
+// export let visible = true;
 </script>
 
-<!-- <h2>Testing Card Title</h2> -->
 
-<!-- <h3>{cardTitle}</h3>
-<p>{cardDescription}</p> -->
+<div class="card">
+  <h3>{myTitle}</h3>
+  <a href="{myLink}">
+    <img src="{myImage}" alt ="random">
+    <p>{myDescription}</p>
+  </a>
+</div>
 
-{#if visible = true}
-<h3>{myTitle}</h3>
-<a href="{myLink}">
-<img src="{myImage}" alt ="random">
-<p>{myDescription}</p>
-</a>
-{/if}
+<style>
+  .card {
+  background-color: rgba(3, 117, 47, 0.74);
+  text-align: center;
+  margin:auto;
+
+  height: 500px;
+  width: 600px;
+
+  border: 2rem;
+  padding: 2px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+</style>
 
 
 
